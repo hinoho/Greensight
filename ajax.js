@@ -19,10 +19,10 @@ function sendAjaxForm(result_form, ajax_form, url) {
 				$("#hide").toggle();
 			}
 			else if(msg=="user"){
-				alert('Пользователь занят');
+				alert('Пользователь с таким email уже занят');
 			
 			}else {
-				alert('Где-то допущена ошибка');
+				alert('Где-то была допущена ошибка');
 			}
 			
 			
